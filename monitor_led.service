@@ -1,0 +1,13 @@
+[Unit]
+Description=Monitor temperature of peoples and change LED color
+
+[Service]
+ExecStart=/bin/bash /home/pi/script/start.sh
+WorkingDirectory=/home/pi/script
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
