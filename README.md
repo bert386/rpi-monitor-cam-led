@@ -23,3 +23,12 @@
  sudo pip3 install adafruit-circuitpython-neopixel
  sudo pip3 install transitions
 ``` 
+
+# Wiring 
+
+![alt text](raspberry-pi-updated-schematic.png "GPIO wiring")
+
+![alt text](button.png "GPIO wiring")
+
+
+# Additional configuration to enable pulse signal for LED strip on the Pi GPIO
