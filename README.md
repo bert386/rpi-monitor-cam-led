@@ -11,4 +11,15 @@
 3) SparkFun Logic Level Converter (BiDirectional)
 4) 5V/10A DC power
 
- 
+
+# Installaion dependencies
+
+```
+ sudo apt update
+ sudo apt-get install inotify-tools unzip -y
+ sudo pip3 install pyinotify
+ sudo pip3 install rpi_ws281x
+ sudo apt-get install scons -y 
+ sudo pip3 install adafruit-circuitpython-neopixel
+ sudo pip3 install transitions
+``` 
